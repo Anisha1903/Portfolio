@@ -8,19 +8,19 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Shanmukha K </span>S
-            from <span className="purple"> Bengaluru, India.</span>
+            Hi Everyone, I am <span className="purple">Anisha M </span>
+            from <span className="purple"> Davangere, India.</span>
             <br />
-            I am currently learning MERN And MEAN Stack Web Development.
+            I completed Bachelor of Engineering in Computer Science from Jain Institute of Technology, Davangere.
             <br />
-            I have completed Bachelor of Engineering in Computer Science from JIT, Davanagere
+            Additionally, I recently completed FULL Stack Development | MERN Stack Development course at Talent Battle.  
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Sports
             </li>
             <li className="about-activity">
               <ImPointRight /> Writing Tech Blogs
@@ -31,9 +31,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Endeavor to create things that have a positive impact!"{" "}
           </p>
-          <footer className="blockquote-footer">Shanmukha K</footer>
+          <footer className="blockquote-footer">Anisha M</footer>
         </blockquote>
       </Card.Body>
     </Card>

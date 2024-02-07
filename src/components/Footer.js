@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -14,16 +13,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Shanmukha K</h3>
+          <h3>Designed and Developed by Anisha M</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © { year }SK</h3>
+          <h3>Copyright © { year } Anisha M</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/shanmukha7k"
+                href="https://github.com/Anisha1903"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -33,17 +32,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/2000shanmukh"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/shanmukha-k-a8274425b/"
+                href="https://www.linkedin.com/in/anisha-m-10b620236/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -53,7 +42,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/shanmukh_7k"
+                href="https://www.instagram.com/__anisha__19"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

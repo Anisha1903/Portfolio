@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import weather from "../../Assets/Projects/weatherapp.png";
-import portfolio from "../../Assets/Projects/portfolio.png";
-import todo from "../../Assets/Projects/To-do.png";
-import foodapp from "../../Assets/Projects/foodappp.png";
-import digitalclock from "../../Assets/Projects/github.png";
-import shopy from "../../Assets/Projects/shopy.png";
+import foodapplication from "../../Assets/Projects/foodapp.png";
+import chatapp from "../../Assets/Projects/chatapp.png";
+import weatherapp from "../../Assets/Projects/weatherapp.png";
+import simplecrudapplication from "../../Assets/Projects/SimpleCrudApplication.png";
+import authenticationsystem from "../../Assets/Projects/authenticationSystem.png";
+import notepadapplication from "../../Assets/Projects/NotepadApplication.png";
 
 function Projects() {
   return (
@@ -23,69 +23,67 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={foodapp}
+              imgPath={foodapplication}
               isBlog={false}
-              title="FoodApp"
-              description="A FoodApp built with the MERN stack (MongoDB, Express.js, React, Node.js) provides a modern and efficient solution for creating, managing, and ordering food, integrating a responsive user interface with a scalable backend for a seamless dining experience.."
-              ghLink="https://github.com/shanmukha7k/FoodAPP"
-              demoLink="https://foodapp-n46y.onrender.com/"
+              title="Food Application"
+              description="A FoodApp built with MERN stack (MongoDB, Express.js, React, Node.js) provides a modern and efficient solution for creating, managing, and ordering food, integrating a responsive user interface with a scalable backend for a seamless dining experience.."
+              ghLink="https://github.com/Anisha1903/Food-Application"
+              demoLink="https://food-application-v0vy.onrender.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={shopy}
+              imgPath={chatapp}
               isBlog={false}
-              title="letshopy"
-              description="An E-Commerce platform developed with the MERN stack (MongoDB, Express.js, React, Node.js) combines a powerful database, scalable server, and dynamic client interfaces to create a feature-rich, responsive application for seamless online shopping experiences, from product browsing to secure transactions."
-              ghLink="https://github.com/shanmukha7k/Ecommerce"
-              demoLink="https://letshopy.netlify.app/"
+              title="Chat App"
+              description="A React.js chat app provides a sleek UI and efficient real-time communication. Seamlessly integrating a responsive frontend and robust backend ensures a modern, engaging chat experience with enhanced performance and scalability."
+              ghLink="https://github.com/Anisha1903/Chat-app"
+              demoLink="https://chat-app-mfh5.onrender.com"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={todo}
-              isBlog={false}
-              title="To-Do-App"
-              description="A TODO app built with the MEAN stack refers to an application developed using a specific set of technologies: MongoDB, Express.js, Angular, and Node.js. Each component of the MEAN stack plays a crucial role in the development of the application. Here's a brief description of each part"
-              ghLink="https://github.com/shanmukha7k/To-Do-App"
-              demoLink="https://to-do-app-ivory-seven.vercel.app/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={weather}
+              imgPath={weatherapp}
               isBlog={false}
               title="Weather App"
-              description="A responsive Weather web app which automatically loads weather stats based on your location using real-time API, Using HTML,CSS,JAVASCRIPT,Weather API"
-              ghLink="https://github.com/shanmukha7k/Weather-APP"
-              demoLink="https://weathersearch1.netlify.app/"
+              description="Angular.js weather app offers dynamic UI & comprehensive weather info, scaling seamlessly for real-time updates. Integrated frontend & reliable backend ensure accurate forecasts & intuitive navigation, providing immersive experiences."
+              ghLink="https://github.com/Anisha1903/Weather-App"
+              demoLink="https://659ae24bb11170b34e48d20c--effortless-strudel-27f092.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={digitalclock}
+              imgPath={simplecrudapplication}
               isBlog={false}
-              title="Github Search"
-              description="The GitHub Search project is a simple web application that allows users to search for GitHub repositories using the GitHub API. This project is built using HTML for the structure, CSS for styling, and jQuery for handling asynchronous requests and DOM manipulation."
-              ghLink="https://github.com/shanmukha7k/GitHub-Search"
-              demoLink="https://1githubsearch.netlify.app/"
-              
+              title="Simple CRUD Application"
+              description="A Simple CRUD Application built with Node.js, Express.js, and MongoDB enables effortless data management. Seamlessly perform Create, Read, Update, and Delete operations with ease. The interface is user-friendly, making it easy to organize and manage data smoothly."
+              ghLink="https://github.com/Anisha1903/Simple-CRUD-Application"
+              demoLink="https://drive.google.com/file/d/1zoX3N8ACPxCMkRVpbISZNQ91unnG47Wl/view?usp=drive_link"        
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={portfolio}
+              imgPath={authenticationsystem}
               isBlog={false}
-              title="Personal-Portfolio"
-              description="The Personal Portfolio using React.js is a dynamic web application that serves as an online resume and showcase for an individual's skills, projects, and achievements. This project utilizes React.js to create a modern, interactive, and responsive portfolio that can be easily customized."
-              ghLink="https://github.com/shanmukha7k/portfolio"
-              demoLink="https://shanmukhaportfolio.netlify.app/"
-              
+              title="Authentication System"
+              description="An Authentication System in Node.js offers login, logout, register, password recovery, email verification, and access control. Built with Express, Passport, JWT, Mongoose, and more, it's ideal for starting Node.js projects with comprehensive user management capabilities."
+              ghLink="https://github.com/Anisha1903/Authentication-System"
+              demoLink="http://serene-headland-22338.herokuapp.com/"  
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={notepadapplication}
+              isBlog={false}
+              title="Notepad Application"
+              description="The AngularJS-powered Notepad App streamlines note management, allowing users to seamlessly create, edit, and delete notes. Its intuitive dashboard and notes list enable easy navigation, ensuring flexibility in managing titles, bodies, and task statuses."
+              ghLink="https://github.com/Anisha1903/Notepad-Application"
+              demoLink="https://659307ee7632d6ee97eb702d--fluffy-parfait-ead136.netlify.app/"  
             />
           </Col>
         </Row>

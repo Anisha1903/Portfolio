@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/SHANMUKHA_K_CV1.pdf";
+import pdf from "../../Assets/../Assets/Anisha-M-CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -10,10 +10,19 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
+  const [pageNumber, setPageNumber] = useState(1);
 
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
+
+  const nextPage = () => {
+    setPageNumber(prevPageNumber => prevPageNumber + 1);
+  };
+
+  const prevPage = () => {
+    setPageNumber(prevPageNumber => prevPageNumber - 1);
+  };
 
   return (
     <div>
@@ -32,20 +41,31 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
+          <Col className="d-flex justify-content-center">
+            <Document file={pdf}>
+              <Page pageNumber={pageNumber} scale={width > 786 ? 1.7 : 0.6} />
+            </Document>
+          </Col>
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
+            size="sm"
+            disabled={pageNumber <= 1}
+            onClick={prevPage}
+            style={{ maxWidth: "70px", marginRight: "10px" }}
           >
-            <AiOutlineDownload />
-            &nbsp;Download CV
+            Previous
+          </Button>
+          <Button
+            variant="primary"
+            size="sm"
+            disabled={pageNumber >= 2}
+            onClick={nextPage}
+            style={{ maxWidth: "70px" }}
+          >
+            Next
           </Button>
         </Row>
       </Container>
