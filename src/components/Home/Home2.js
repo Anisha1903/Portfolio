@@ -19,7 +19,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
-              something, I think… 🤷
+              something, I think… 🤷‍♀️
               <br />
               <br />I am fluent in classics like
               <i>
@@ -47,7 +47,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-              <b className="purple"> React.js , Aunglar Js</b>
+              <b className="purple"> React.js , Angular Js</b>
               </i>
             </p>
           </Col>
