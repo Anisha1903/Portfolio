@@ -4,7 +4,7 @@ A portfolio website showcasing my projects and skills, built using React.js.
 
 ## Demo
 
-You can view the live demo of the portfolio [here](https://65d07cae612c0b7ef1c523ba--adorable-hotteok-5bc6e4.netlify.app/).
+You can view the live demo of the portfolio [here](https://661800c22b555d287c3d0222--comfy-choux-a4bbb1.netlify.app/).
 
 ## Description
 
