@@ -4,7 +4,7 @@ A portfolio website showcasing my projects and skills, built using React.js.
 
 ## Demo
 
-You can view the live demo of the portfolio [here](https://66770ccea79a96c190798e9a--chipper-kheer-ac0ac8.netlify.app/).
+You can view the live demo of the portfolio [here](https://remarkable-nougat-fd3419.netlify.app/resume).
 
 ## Description
 
