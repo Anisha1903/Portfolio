@@ -1,7 +1,7 @@
 
 // For multi page resume
 
-/*
+
 
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
@@ -80,10 +80,10 @@ function ResumeNew() {
 
 export default ResumeNew;
 
-*/
-
 
 // for single page resume
+
+/*
 
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
@@ -132,3 +132,5 @@ function ResumeNew() {
 }
 
 export default ResumeNew;
+
+*/
